@@ -1,0 +1,19 @@
+intents:
+  - greet
+  - goodbye
+  - search_genre
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_genre
+
+templates:
+  utter_greet:
+  - text: "Hey! What kind of movies do you want?"
+
+  utter_genre:
+  - text: "Here are some movies you would enjoy!"
+
+  utter_goodbye:
+  - text: "Bye"
